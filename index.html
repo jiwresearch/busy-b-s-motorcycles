@@ -358,12 +358,8 @@
     /* CONTACT */
     .contact-wrap {
       max-width: 600px; margin: 0 auto;
-      text-align: center;
     }
-    .contact-item {
-      justify-content: center;
-    }
-    .contact-info { }
+    .contact-info { width: fit-content; margin: 0 auto; }
     .contact-info h3 {
       font-family: 'Black Ops One', cursive;
       color: var(--gold); font-size: 1.8rem;
@@ -384,8 +380,8 @@
       margin-bottom: 4px;
     }
     .contact-detail span { font-size: 1rem; color: var(--text); line-height: 1.4; }
-    .hours-grid { margin-top: 8px; }
-    .hours-row { display: flex; justify-content: space-between; padding: 11px 0; border-bottom: 1px solid rgba(184,147,47,0.1); font-size: 0.9rem; }
+    .hours-grid { margin-top: 8px; min-width: 220px; }
+    .hours-row { display: flex; justify-content: space-between; gap: 40px; padding: 11px 0; border-bottom: 1px solid rgba(184,147,47,0.1); font-size: 0.9rem; }
     .hours-day { color: var(--text-dim); }
     .hours-time { color: var(--gold); font-weight: 600; }
 
@@ -646,7 +642,7 @@
       <p class="service-desc">Extensive inventory of OEM and aftermarket parts. If we don't have it, we'll get it — fast.</p>
     </div>
     <div class="service-card">
-      <span class="service-icon">🎨</span>
+      <span class="service-icon">🔨</span>
       <div class="service-name">Custom Builds</div>
       <p class="service-desc">Turn your vision into reality. Custom modifications, performance upgrades, and unique builds tailored to you.</p>
     </div>
